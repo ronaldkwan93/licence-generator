@@ -1,0 +1,72 @@
+.licence {
+  border: 1px solid black;
+  height: 80%;
+  border-radius: 6px;
+  .NSW {
+    background-color: rgb(255, 230, 2); 
+  }
+
+  .VIC {
+    background-color: rgb(0, 90, 150);
+  }
+
+  .QLD {
+    background-color: rgb(219, 192, 37);
+  }
+
+  .WA {
+    background-color: rgb(0, 119, 255); 
+  }
+
+  .SA {
+    background-color: rgb(28, 56, 218); 
+  }
+
+  .TAS {
+    background-color: rgb(0, 77, 122); 
+  }
+
+  .ACT {
+    background-color: rgb(255, 189, 45); 
+  }
+
+  .NT {
+    background-color: rgb(30, 60, 192); 
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2em auto;
+    width: 100%;
+    border-bottom: 1px dotted black;
+
+    h3,
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+    padding:1em;
+    p {
+        font-weight: bold;
+    }
+    
+    .dateOfBirth {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 1em;
+      p {
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+  }
+}
